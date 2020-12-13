@@ -1,0 +1,20 @@
+service: example
+
+frameworkVersion: '2'
+
+provider:
+  name: kubeless
+  runtime: nodejs12
+  defaultDNSResolution: 'xip.io'
+
+plugins:
+  - serverless-kubeless
+  - serverless-webpack
+  - serverless-kubeless-offline
+
+functions:
+  hello:
+    handler: handler.hello
+    events:
+      - http:
+          path: /hello

@@ -1,0 +1,9 @@
+# package directories
+node_modules
+jspm_packages
+
+# Other
+.serverless
+.webpack
+package-lock.json
+yarn.lock
