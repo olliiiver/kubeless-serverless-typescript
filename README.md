@@ -1,7 +1,7 @@
 
 This FaaS example deploys a Typescript function to Kubernetes via Serverless and Kubeless on a local k3d cluster on Docker. Real live coding is also possible via serverless offline. 
 
-I tried this example on a Mac. Other hosts might also possbile.
+I tried this example on a Mac. Other hosts might also be possible.
 
 # Prerequisites
 
@@ -92,7 +92,7 @@ Serverless: Function hello successfully deployed
 Serverless: Creating http trigger for: hello
 ```
 
-You can get more information by typping ...
+You can get more information by typing ...
 
 ```
 serverless info
