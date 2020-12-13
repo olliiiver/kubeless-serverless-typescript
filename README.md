@@ -66,11 +66,11 @@ Deploy the code example from this repository to Kubeless via Serverless.
 cd example
 npm install
 serverless deploy
-serverless info
-````
+```
+
 This should return the following output.
 
-````
+```
 Serverless: Running "serverless" installed locally (in service node_modules)
 Serverless: Configuration warning: Unrecognized provider 'kubeless'
 Serverless:
@@ -90,7 +90,7 @@ Serverless: Packaging service...
 Serverless: Deploying function hello...
 Serverless: Function hello successfully deployed
 Serverless: Creating http trigger for: hello
-````
+```
 
 You can get more information by typping ...
 
